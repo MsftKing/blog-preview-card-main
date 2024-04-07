@@ -1,0 +1,9 @@
+:root {
+    --container-color: hsl(47, 88%, 63%);
+    --p-color: hsl(0,0,50%);
+    --text-color: hsl(0,0%,7%);
+}
+
+* {
+    font-family: 'Figtree', sans-serif;
+}
