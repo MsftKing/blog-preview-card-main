@@ -25,7 +25,9 @@ button {
 }
 
 .learningText {
+    margin:0;
     font-size: 16px;
+    font-style: italic;
 }
 
 
@@ -53,9 +55,15 @@ img[src="./assets/images/illustration-article.svg"]{
     border-radius: 5%;
  }
 
+ .title:hover {
+    color: var(--container-color);
+    cursor: pointer;
+ }
+
  p {
     font-size: 14px;
     font-weight: 400;
+    font-style: bold;
  }
 
 .description {
@@ -74,19 +82,28 @@ img[src="./assets/images/illustration-article.svg"]{
  .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     margin: 20px 20px 20px 20px;
     max-width: 336px;
     max-height: 189px;
  } 
+ div.author {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: auto;
+    width: 128px;
+ }
 
- .img[src="./assets/images/image-avatar.webp"] {
+ img[src="./assets/images/image-avatar.webp"] {
     max-width: 32px;
     max-height: 32px;
  }
 
- .author {
-    display: flex;
-    flex-direction: column;
-    max-width: 128px;
+ div.author .authorText {
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 10px; 
  }
+
+ 
