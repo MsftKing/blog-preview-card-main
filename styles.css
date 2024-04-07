@@ -16,7 +16,7 @@ html {
 
 button {
     background-color: var(--container-color);
-    border-radius: 5%;
+    border-radius: 12%;
     display: block;
     box-sizing: border-box;
     border: none;
