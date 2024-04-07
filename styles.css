@@ -6,4 +6,9 @@
 
 * {
     font-family: 'Figtree', sans-serif;
+    max-height: 522px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
