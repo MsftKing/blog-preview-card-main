@@ -2,6 +2,7 @@
     --container-color: hsl(47, 88%, 63%);
     --p-color: hsl(0,0,50%);
     --text-color: hsl(0,0%,7%);
+    --card-color: #ffffff;
 }
 
 * {
@@ -15,16 +16,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--container-color);
+    
 }
-
-main {
-    min-width: 100%;
-    height: 
-}
-
-img {
-    display: flex;  
-    flex-direction: column;
-    justify-content: ;
-}
+ main  {
+    background-color: var(--card-color);
+ }
