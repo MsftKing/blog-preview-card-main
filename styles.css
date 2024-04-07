@@ -4,20 +4,73 @@
     --text-color: hsl(0,0%,7%);
     --card-color: #ffffff;
 }
+html {
+    background-color: var(--container-color);
+}
 
 * {
     font-family: 'Figtree', sans-serif;
     max-height: 522px;
 }
 
+button {
+    background-color: var(--container-color);
+    border-radius: 5%;
+    border-style: none;
+    padding: auto;
+    margin: 5px;
+}
+
+
 body {
     
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
+
+img {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    box-sizing: border-box;
+    display: block;
+    margin: 20px 20px 20px 20px;
+}
+
+
  main  {
     background-color: var(--card-color);
+    max-width: 384px;
+    max-height: 522px;
+    border-radius: 5%;
+ }
+
+ p {
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+ h1 {
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 700;
+ }
+
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 20px 20px 20px;
+    max-width: 336px;
+    max-height: 189px;
  }
