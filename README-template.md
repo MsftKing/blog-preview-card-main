@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://ryanking-blog-preview.netlify.app/]
-- Live Site URL: [Add live site URL here](https://github.com/MsftKing/blog-preview-card-main/blob/main/README-template.md)
+- Live Site URL: [https://ryanking-blog-preview.netlify.app/]
 
 ### Built with
 
