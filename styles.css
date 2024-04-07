@@ -16,9 +16,16 @@ html {
 button {
     background-color: var(--container-color);
     border-radius: 5%;
-    border-style: none;
-    padding: auto;
-    margin: 5px;
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    margin: 5px 5px 5px 5px;
+    width: 82px;
+    height: 29px;
+}
+
+.learningText {
+    font-size: 16px;
 }
 
 
@@ -31,9 +38,7 @@ body {
     
 }
 
-img {
-    display: flex;
-    flex-direction: column;
+img[src="./assets/images/illustration-article.svg"]{
     border-radius: 5%;
     box-sizing: border-box;
     display: block;
@@ -73,4 +78,15 @@ img {
     margin: 20px 20px 20px 20px;
     max-width: 336px;
     max-height: 189px;
+ } 
+
+ .img[src="./assets/images/image-avatar.webp"] {
+    max-width: 32px;
+    max-height: 32px;
+ }
+
+ .author {
+    display: flex;
+    flex-direction: column;
+    max-width: 128px;
  }
