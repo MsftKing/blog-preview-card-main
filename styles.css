@@ -6,6 +6,7 @@
 }
 html {
     background-color: var(--container-color);
+    overflow: scroll;
 }
 
 * {
@@ -104,6 +105,28 @@ img[src="./assets/images/illustration-article.svg"]{
     display: inline-block;
     justify-content: space-around;
     margin-left: 10px; 
+ }
+
+ @media (max-width: 375px) {
+    main  {
+        max-width: 327px;
+        max-height: 501px;
+        border-radius: 5%;
+     }
+     button {
+        max-width: 279px;
+        max-height: 168px;
+     }
+     img[src="./assets/images/illustration-article.svg"]{
+        border-radius: 5%;
+        box-sizing: border-box;
+        display: block;
+        margin: 20px 20px 20px 20px;
+        max-width: 279px;
+        max-height: 200px;
+    }
+    
+    
  }
 
  
