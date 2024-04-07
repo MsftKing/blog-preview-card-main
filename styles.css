@@ -7,8 +7,24 @@
 * {
     font-family: 'Figtree', sans-serif;
     max-height: 522px;
+}
+
+body {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--container-color);
+}
+
+main {
+    min-width: 100%;
+    height: 
+}
+
+img {
+    display: flex;  
+    flex-direction: column;
+    justify-content: ;
 }
